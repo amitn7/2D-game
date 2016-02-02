@@ -1,0 +1,200 @@
+<?xml version = "1.0"?>
+<GameData>
+
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+<screenTitle>Shoot All</screenTitle>
+<maxStringSize>50</maxStringSize>
+
+<frameCap>60</frameCap>
+<framesAreCapped>true</framesAreCapped>
+<frameMax>1200</frameMax>
+<username>amitn</username>
+
+<rotateAngle>180</rotateAngle>
+<rotateAngleUp>90</rotateAngleUp>
+<collisionStrategy>2</collisionStrategy>
+<safeDistance>150</safeDistance>
+
+<view>
+  <width>854</width>
+  <height>480</height>
+</view>
+
+<world>
+  <width>5000</width>
+  <height>800</height>
+</world>
+
+<clock>
+  <locX>10</locX>
+  <locY>10</locY>
+</clock>
+
+<farBack>
+  <file>images/0.png</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factorX>8</factorX>
+  <factorY>7</factorY>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>1200</width>
+  <height>800</height>
+  <transparency>false</transparency>
+</farBack>
+
+<back>
+  <file>images/1.png</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+   <factorX>6</factorX>
+  <factorY>5</factorY>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>1200</width>
+  <height>600</height>
+  <transparency>false</transparency>
+</back>
+
+<backSecond>
+  <file>images/2.png</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+   <factorX>4</factorX>
+  <factorY>3</factorY>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>1200</width>
+  <height>600</height>
+  <transparency>false</transparency>
+</backSecond>
+
+<middle>
+  <file>images/3.png</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+   <factorX>2</factorX>
+  <factorY>2</factorY>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>1200</width>
+  <height>600</height>
+  <transparency>false</transparency>
+</middle>
+
+<front>
+  <file>images/4.png</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+   <factorX>1</factorX>
+   <factorY>1</factorY>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>1200</width>
+  <height>800</height>
+  <transparency>false</transparency>
+</front>
+
+<font name="font">
+  <file>font/dyslexic-bold.otf</file>
+  <size>16</size>
+  <red>0</red>
+  <green>0</green>
+  <blue>0</blue>
+  <unused>0</unused>
+</font>
+
+
+
+
+<ufo>
+  <file>images/ufo.png</file>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <cushion> 0.0 </cushion>
+  <scale min = "1" max = "2"/>
+   <chunk>
+    <size>9</size>
+    <distance>200</distance>
+    <spinAngle>0</spinAngle>
+  </chunk>
+  <numOfUfo>60</numOfUfo>
+  <src x = "0" y = "0"/>
+  <loc x = "500" y = "10"/>
+  <width>40</width>
+  <SpeedX>550</SpeedX>
+  <SpeedY>450</SpeedY>
+  <height>40</height>
+  <startLoc x="320" y="240"/>
+  <speed x = "300" y = "300"/>
+  <yLimit>150</yLimit>
+  <transparency>true</transparency>
+
+</ufo>
+
+<spaceship>
+  <expInterval>2</expInterval>
+  <file>images/player2.png</file>
+  <src x="0" y="240"/>
+  <width>111</width>
+  <height>67</height>
+  <startLoc x="240" y="600"/>
+  <speedX>400</speedX>
+   <chunk>
+    <size>9</size>
+    <distance>200</distance>
+    <spinAngle>0</spinAngle>
+  </chunk>
+  <speedY>200</speedY>
+  <transparency>true</transparency>
+  <spinAngle>0</spinAngle>
+  <slowDown>0.1</slowDown>
+  <bulletName>bullet</bulletName>
+  <bulletInterval>200</bulletInterval>
+  <minBulletSpeed>200</minBulletSpeed>
+</spaceship>
+
+<textPositioning>
+  <secondsLocation x="10" y="20"/>
+  <fpsLocation x="10" y="40"/>
+  <playerMovementLocation x="10" y="60"/>
+  <toggleHUDLocation x="10" y="240"/> 
+  <resetHealthLocation x="10" y="260"/>
+  <activeListLocation x="10" y="280"/>
+  <freeListLocation x="10" y="300"/>  
+</textPositioning>
+
+<hudDetails>
+  <hudLocation x="8" y="8"/>
+  <hudDimensions x="270" y="350"/>
+  <healthLocation x="680" y="570"/>
+  <healthDimensions x="200" y="14"/>
+  <healthIncrement>20</healthIncrement>
+  <healthInterval>1000</healthInterval>
+  <healthDeltaTime>0</healthDeltaTime>
+</hudDetails>
+
+
+
+<bullet>
+  <file>images/fireBall.png</file>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>40</width>
+  <height>34</height>
+  <maxDistance>500</maxDistance>
+  <spinAngle>0</spinAngle>
+  <startLoc x="58" y="35"/>
+  <speed x="400" y="100"/>
+  <speedX>400</speedX>
+  <speedY>100</speedY>
+  <transparency>true</transparency>
+</bullet>
+
+</GameData>

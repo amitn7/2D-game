@@ -1,0 +1,43 @@
+
+
+Description:
+
+To Win you have to score at least 6000 points else you lose
+Whenever an enemy hits the Player , the player health will decrease and if hit by 5th enemy 
+the game will end.
+
+If you score above 6000 you can continue to play even if you won till your health allows.
+If you destroy one enemy score will increase by 100.
+The points that the player accumulates before his health goes down is his final score.
+
+Guide to play game:
+
+Press A to move left
+Press D to move right
+Press W to move up
+Press S to move down
+Press C and Z to flip direction of Shooting
+Press X to flip  vertically and shoot vertically
+Press SPACE to shoot
+Press F1 to toggle HUD
+Press F4 to Generate Frames
+Press R to restart game
+Press G to toggle GodMode
+press k to reset Health bar
+
+
+SmartSprites would be shown with 0 and 1 mode.
+Once the normal sprites are exploded then they will re emerge as smart sprite
+
+Object pooling is done for bullet shooting
+All the required specs are implemented.
+
+Videos is in the movie folder inside tracker
+ Sprites for my project :
+ 
+player Sprite    : http://millionthvector.blogspot.com/p/free-sprites.html
+ufo sprite       : http://millionthvector.blogspot.com/p/free-sprites.html
+background Sprite: http://gamedevelopment.tutsplus.com/
+fireball Sprite  : http://cdn1.bigcommerce.com/n-ww20x/1n77e/products/1115/images/
+Audio Sources: http://soundbible.com/royalty-free-sounds-1.html
+               http://www.orangefreesounds.com
